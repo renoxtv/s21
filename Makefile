@@ -431,7 +431,7 @@ OBJSIZE		= llvm-size
 STRIP		= llvm-strip
 else
 #CC		= $(CROSS_COMPILE)gcc
-CC    = /home/renox/kernel/toolchain/clang-r383902/bin/clang
+CC    = /home/renox/kernel/toolchain/clang-r383902/bin/clang-11
 #CC    = ../PLATFORM/prebuilts/clang/host/linux-x86/clang-r383902/bin/clang
 LD		= $(CROSS_COMPILE)ld
 AR		= $(CROSS_COMPILE)ar
