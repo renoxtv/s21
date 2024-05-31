@@ -151,7 +151,6 @@ ifeq ($(USER_BUILD), true)
         DEFEX_DEFINES += -DDEFEX_DSMS_ENABLE
     endif
 else
-    $(warning [DEFEX] DEBUG_ENABLE)
     defex-y += debug/defex_debug.o
     defex-y += core/defex_sysfs.o
     DEFEX_DEFINES += -DDEFEX_PERMISSIVE_INT
